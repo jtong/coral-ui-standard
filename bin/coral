@@ -1,0 +1,11 @@
+#!/usr/bin/env ruby
+
+require "rubygems"
+require "thor"
+require "thor/group"
+
+require "coral-ui-standard/foundation/mover"
+require "haml"
+require "jt-partial"
+
+Mover.start
